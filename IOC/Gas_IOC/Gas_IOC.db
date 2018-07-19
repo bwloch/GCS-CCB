@@ -1,0 +1,84 @@
+record(ao,"$(INST):Temperature"){
+field(DTYP,"Soft Channel")
+field(VAL,20)
+field(UDF,1)
+#field(FLNK,"$(INST):Vap_conc")
+}
+record(ao,"$(INST):Pressure"){
+field(DTYP,"Soft Channel")
+field(VAL,1000)
+field(UDF,1)
+#field(FLNK,"$(INST):Vap_conc")
+}
+record(ao,"$(INST):Concentration"){
+field(DTYP,"Soft Channel")
+field(VAL,3)
+field(UDF,1)
+#field(FLNK,"$(INST):Mix_Ratio")
+}
+record(ao,"$(INST):Set_Flow"){
+field(DTYP,"Soft Channel")
+field(VAL,5)
+field(UDF,1)
+#field(FLNK,"$(INST):Flow1")
+}
+
+record(calc,"$(INST):Vap_conc"){
+field(SCAN,".1 second")
+field(INPA,"$(INST):Temperature")
+field(INPB,"$(INST):Pressure")
+field(CALC,"C:=(10**(8.204-1642.89/(230.3+A)))*133.32/100;C*100/B")
+field(FLNK,"$(INST):Mix_Ratio")
+}
+
+record(calc,"$(INST):Mix_Ratio"){
+field(INPA,"$(INST):Vap_conc")
+field(INPB,"$(INST):Concentration")
+field(CALC,"C:=A-B;B/C")
+field(FLNK,"$(INST):Ratio_FO")
+}
+
+record(fanout,"$(INST):Ratio_FO"){
+field(SELM,"All")
+#field(DOL,"$(INST):Mix_Ratio")
+field(LNK1,"$(INST):Flow1")
+field(LNK2,"$(INST):Flow2")
+}
+
+record(calc,"$(INST):Flow1"){
+field(SCAN,"Passive")
+field(INPA,"$(INST):Mix_Ratio")
+field(INPB,"$(INST):Set_Flow")
+field(CALC,"C:=(1+1/A);B/C")
+field(FLNK,"$(INST):Channel1")
+}
+record(calc,"$(INST):Flow2"){
+field(SCAN,"Passive")
+field(INPA,"$(INST):Mix_Ratio")
+field(INPB,"$(INST):Flow1")
+field(CALC,"B/A")
+field(FLNK,"$(INST):Channel2")
+}
+
+record(calc,"$(INST):Channel1"){
+field(INPA,"$(INST):Flow1")
+field(CALC,"(A+196.88)/25.52")
+}
+record(calc,"$(INST):Channel2"){
+field(INPA,"$(INST):Flow2")
+field(CALC,"((A+196.88)/25.52)*0.35+1.35")
+}
+record(ao,"$(INST):FlowContr1"){
+field(SCAN,"1 second")
+field(DTYP,"Soft Channel")
+field(DOL,"$(INST):Channel1")
+field(EGU,"[l/h]")
+#field(NAME,"First Flow Controller")
+field(HOPR,500)
+field(LOPR,0)
+#field(VAL,50)
+}
+
+
+
+

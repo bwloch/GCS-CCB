@@ -1,0 +1,10 @@
+Terminator = LF;
+get_analog {
+	out "R";
+	in "R %f";
+	ExtraInput = Ignore;
+}
+set_digital {
+	out "W%d";
+	ExtraInput = Ignore;
+}

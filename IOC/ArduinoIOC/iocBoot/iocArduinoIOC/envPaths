@@ -1,0 +1,6 @@
+epicsEnvSet("ARCH","linux-x86")
+epicsEnvSet("IOC","iocArduinoIOC")
+epicsEnvSet("TOP","/home/menorzinho/EPICS/ArduinoIOC")
+epicsEnvSet("EPICS_BASE","/home/menorzinho/EPICS/base")
+epicsEnvSet("ASYN","/home/menorzinho/EPICS/extensions/asyn")
+epicsEnvSet("STREAM","/home/menorzinho/EPICS/extensions/stream")
