@@ -1,2 +1,4 @@
+cs-studio/workspace/.metadata/*
+*.log
 *.[oa]
 *.~
