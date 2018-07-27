@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.core.diirt.feature"
+      label="Core Diirt plugins"
+      version="0.0.1.201706291441"
+      provider-name="CS-Studio Collaboration &lt;cs-studio-core@lists.sourceforge.net&gt;">
+
+   <copyright url="http://controlsystemstudio.github.io/">
+      Use is subject to license.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Eclipse Public license for the feature.
+       Each library uses its own license.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.osgi.util"/>
+      <import plugin="org.eclipse.core.runtime"/>
+   </requires>
+
+   <plugin
+         id="org.diirt.datasource-extra"
+         download-size="33"
+         install-size="64"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-file-json"
+         download-size="4"
+         install-size="5"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-file"
+         download-size="23"
+         install-size="39"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-formula"
+         download-size="170"
+         install-size="325"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-graphene"
+         download-size="50"
+         install-size="115"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-loc"
+         download-size="8"
+         install-size="14"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-sample"
+         download-size="237"
+         install-size="494"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-sim"
+         download-size="56"
+         install-size="103"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-sys"
+         download-size="14"
+         install-size="21"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource-vtype"
+         download-size="28"
+         install-size="61"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.datasource"
+         download-size="184"
+         install-size="400"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.graphene"
+         download-size="267"
+         install-size="488"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.javafx"
+         download-size="3"
+         install-size="2"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.javafx.tools"
+         download-size="136"
+         install-size="285"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.service-exec"
+         download-size="13"
+         install-size="22"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.service-jdbc"
+         download-size="13"
+         install-size="23"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.service"
+         download-size="19"
+         install-size="36"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.support.diirt-ca"
+         download-size="65"
+         install-size="130"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.support.diirt-cf"
+         download-size="14"
+         install-size="22"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.util"
+         download-size="95"
+         install-size="162"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.vtype-json"
+         download-size="17"
+         install-size="42"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.vtype"
+         download-size="124"
+         install-size="233"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.diirt.util"
+         download-size="9"
+         install-size="13"
+         version="1.0.1.201706291441"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.diirt.util.preferences"
+         download-size="2253"
+         install-size="2474"
+         version="1.0.1.201706291441"
+         unpack="false"/>
+
+   <plugin
+         id="org.diirt.support.diirt-pva"
+         download-size="152"
+         install-size="302"
+         version="3.1.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.diirt.help"
+         download-size="17"
+         install-size="39"
+         version="1.0.0.201706291441"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.diirt.util.core.preferences"
+         download-size="34"
+         install-size="64"
+         version="1.0.2.201706291441"
+         unpack="false"/>
+
+</feature>

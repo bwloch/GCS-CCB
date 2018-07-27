@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-Description: Simple diagnostic utility to connect to any channe
+ l
+Bundle-SymbolicName: org.csstudio.diag.pvmanager.probe; singleton:=tru
+ e
+Archiver-Version: Plexus Archiver
+Built-By: travis
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.csstudio.u
+ tility.pvmanager.ui,org.csstudio.csdata;bundle-version="0.0.1",org.cs
+ studio.ui.util;bundle-version="0.0.1",org.eclipse.ui.intro,org.eclips
+ e.ui.intro.universal,org.eclipse.help,org.csstudio.utility.pvmanager.
+ widgets;bundle-version="3.2.0",org.csstudio.java;bundle-version="3.2.
+ 0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Gabriele Carcassi <carcassi@bnl.gov>, Kunal Shroff <ksh
+ roff@bnl.gov> - BNL
+Import-Package: org.diirt.datasource;version="3.1.2",org.diirt.datasou
+ rce.expression;version="3.1.2",org.diirt.datasource.formula;version="
+ 3.1.2",org.diirt.util.time;version="3.1.2",org.diirt.vtype;version="3
+ .1.2",org.diirt.vtype.io;version="3.1.2"
+Bundle-Name: PvManager Probe
+Bundle-Version: 2.0.0.201706291447
+Bundle-Activator: org.csstudio.diag.pvmanager.probe.Activator
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_131
+

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.csstudio.startup.intro; singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: shroffk
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .intro,org.eclipse.ui.intro.universal,org.eclipse.help
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: CS-Studio Collaboration <cs-studio-core@lists.sourcefor
+ ge.net>
+Bundle-Name: CS-Studio Intro
+Bundle-Version: 4.5.1.201702231239
+Bundle-Activator: org.csstudio.startup.intro.Activator
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_131
+

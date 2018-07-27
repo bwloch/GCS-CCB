@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.applications.opibuilder.feature"
+      label="Operator Interface Builder (BOY)"
+      version="5.0.0.201706291447"
+      provider-name="Kay Kasemir &lt;kasemirk@ornl.gov&gt; - SNS">
+
+   <description>
+      Best OPI, Yet (BOY): Editor and runtime for operator interface panels.
+   </description>
+
+   <copyright>
+      Copyright (c) 2010 Oak Ridge National Laboratory, OAK RIDGE,
+TN, USA. All rights reserved.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      You must accept this license agreement in order to install and
+use this
+software.
+THIS SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN &quot;../AS IS&quot;
+BASIS.
+WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+For details, see http://www.eclipse.org/legal/epl-v10.html
+   </license>
+
+   <url>
+      <update label="SNS CSS Update Site" url="http://ics-web.sns.ornl.gov/css/updates/"/>
+   </url>
+
+   <plugin
+         id="org.csstudio.opibuilder"
+         download-size="6302"
+         install-size="8885"
+         version="5.1.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.examples"
+         download-size="1347"
+         install-size="4843"
+         version="5.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.widgets.extra"
+         download-size="58"
+         install-size="112"
+         version="2.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.widgets"
+         download-size="921"
+         install-size="1689"
+         version="4.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.xygraph"
+         download-size="424"
+         install-size="684"
+         version="2.0.5.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.widgets"
+         download-size="491"
+         install-size="945"
+         version="2.1.4.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.rcp"
+         download-size="53"
+         install-size="105"
+         version="5.0.0.201706291447"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.widgets.rcp"
+         download-size="32"
+         install-size="60"
+         version="3.1.3.201706291447"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.widgets.rcp"
+         download-size="6"
+         install-size="10"
+         version="1.0.0.201706291447"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.xygraph.rcp"
+         download-size="4"
+         install-size="6"
+         version="1.0.0.201706291447"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.editor"
+         download-size="199"
+         install-size="394"
+         version="4.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="179"
+         install-size="375"
+         version="1.1.1.v201101151400"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.widgets.symbol"
+         download-size="172"
+         install-size="449"
+         version="5.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.opibuilder.imagelib"
+         download-size="1373"
+         install-size="2017"
+         version="4.3.1.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.simplepv"
+         download-size="19"
+         install-size="30"
+         version="1.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.simplepv.pvmanager"
+         download-size="15"
+         install-size="25"
+         version="1.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.simplepv.vtypepv"
+         download-size="8"
+         install-size="13"
+         version="1.0.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.examples"
+         download-size="10"
+         install-size="17"
+         version="1.0.0.201706291447"
+         unpack="false"/>
+
+  <plugin
+         id="org.csstudio.opibuilder.validation"
+         download-size="134"
+         install-size="243"
+         version="2.1.0.201706291447"
+         unpack="false"/>
+
+</feature>

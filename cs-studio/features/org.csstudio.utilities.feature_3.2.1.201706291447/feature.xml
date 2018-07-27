@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.utilities.feature"
+      label="CS-Studio Utilities"
+      version="3.2.1.201706291447"
+      provider-name="CS-Studio Collaboration &lt;cs-studio-core@lists.sourceforge.net&gt;">
+
+   <description url="http://controlsystemstudio.github.io/">
+      General utilities for CS-Studio.
+   </description>
+
+   <copyright url="http://controlsystemstudio.github.io/">
+      Use is subject to license.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Eclipse public license.
+   </license>
+
+   <plugin
+         id="org.csstudio.swt.rtplot"
+         download-size="169"
+         install-size="336"
+         version="1.6.0.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.xygraph"
+         download-size="424"
+         install-size="684"
+         version="2.0.5.201706291447"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.swt.xygraph.rcp"
+         download-size="4"
+         install-size="6"
+         version="1.0.0.201706291447"
+         unpack="false"/>
+</feature>

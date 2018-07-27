@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="auto_complete_history">
+		<list key="PV">
+			<item value="sim://noise"/>
+			<item value="css:tank"/>
+			<item value="css:setpoint"/>
+			<item value="calc:sum"/>
+			<item value="calc:b"/>
+			<item value="sim://ramp"/>
+			<item value="sim://sine"/>
+			<item value="sim://flipflop"/>
+			<item value="sim://ai"/>
+			<item value="calc:a"/>
+			<item value="sm://ai"/>
+		</list>
+	</section>
+</section>

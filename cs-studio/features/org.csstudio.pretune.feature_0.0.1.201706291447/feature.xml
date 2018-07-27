@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.pretune.feature"
+      label="Pretune application"
+      version="0.0.1.201706291447">
+
+   <plugin
+         id="org.csstudio.pretune"
+         download-size="33"
+         install-size="61"
+         version="0.0.1.201706291447"
+         unpack="false"/>
+
+</feature>
