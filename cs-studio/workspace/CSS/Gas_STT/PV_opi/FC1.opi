@@ -537,7 +537,7 @@ $(pv_value)</tooltip>
     <name>Text Update</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.NAME</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -659,7 +659,7 @@ $(pv_value)</tooltip>
     <x>24</x>
     <y>228</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
     <auto_size>false</auto_size>
@@ -673,6 +673,7 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <confirm_message></confirm_message>
     <enabled>true</enabled>
     <font>
       <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
@@ -684,10 +685,14 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <height>30</height>
     <horizontal_alignment>0</horizontal_alignment>
+    <limits_from_pv>false</limits_from_pv>
+    <maximum>Infinity</maximum>
+    <minimum>-Infinity</minimum>
+    <multiline_input>false</multiline_input>
     <name>Text Update_1</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.DESC</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -697,16 +702,16 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
+    <selector_type>0</selector_type>
     <show_units>true</show_units>
+    <style>0</style>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Text Update</widget_type>
+    <widget_type>Text Input</widget_type>
     <width>330</width>
-    <wrap_words>false</wrap_words>
     <wuid>-43033303:164eb2b0fc3:-701e</wuid>
     <x>240</x>
     <y>234</y>
@@ -837,7 +842,7 @@ $(pv_value)</tooltip>
     <name>Text Update_2</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.TIME</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -959,7 +964,7 @@ $(pv_value)</tooltip>
     <x>24</x>
     <y>312</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
     <auto_size>false</auto_size>
@@ -973,6 +978,7 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <confirm_message></confirm_message>
     <enabled>true</enabled>
     <font>
       <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
@@ -984,10 +990,14 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <height>30</height>
     <horizontal_alignment>0</horizontal_alignment>
+    <limits_from_pv>false</limits_from_pv>
+    <maximum>Infinity</maximum>
+    <minimum>-Infinity</minimum>
+    <multiline_input>false</multiline_input>
     <name>Text Update_3</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.VAL</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -997,16 +1007,16 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
+    <selector_type>0</selector_type>
     <show_units>true</show_units>
+    <style>0</style>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Text Update</widget_type>
+    <widget_type>Text Input</widget_type>
     <width>330</width>
-    <wrap_words>false</wrap_words>
     <wuid>-43033303:164eb2b0fc3:-7002</wuid>
     <x>240</x>
     <y>318</y>
@@ -1109,7 +1119,7 @@ $(pv_value)</tooltip>
     <x>25</x>
     <y>354</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
     <auto_size>false</auto_size>
@@ -1123,6 +1133,7 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <confirm_message></confirm_message>
     <enabled>true</enabled>
     <font>
       <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
@@ -1134,10 +1145,14 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <height>30</height>
     <horizontal_alignment>0</horizontal_alignment>
+    <limits_from_pv>false</limits_from_pv>
+    <maximum>Infinity</maximum>
+    <minimum>-Infinity</minimum>
+    <multiline_input>false</multiline_input>
     <name>Text Update_4</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.EGU</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1147,16 +1162,16 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
+    <selector_type>0</selector_type>
     <show_units>true</show_units>
+    <style>0</style>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Text Update</widget_type>
+    <widget_type>Text Input</widget_type>
     <width>330</width>
-    <wrap_words>false</wrap_words>
     <wuid>-43033303:164eb2b0fc3:-6ff4</wuid>
     <x>240</x>
     <y>360</y>
@@ -1318,7 +1333,7 @@ $(pv_value)</tooltip>
     <x>24</x>
     <y>480</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
     <auto_size>false</auto_size>
@@ -1332,6 +1347,7 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <confirm_message></confirm_message>
     <enabled>true</enabled>
     <font>
       <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
@@ -1343,10 +1359,14 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <height>30</height>
     <horizontal_alignment>0</horizontal_alignment>
+    <limits_from_pv>false</limits_from_pv>
+    <maximum>Infinity</maximum>
+    <minimum>-Infinity</minimum>
+    <multiline_input>false</multiline_input>
     <name>Text Update_5</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.HOPR</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1356,16 +1376,16 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
+    <selector_type>0</selector_type>
     <show_units>true</show_units>
+    <style>0</style>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Text Update</widget_type>
+    <widget_type>Text Input</widget_type>
     <width>330</width>
-    <wrap_words>false</wrap_words>
     <wuid>-43033303:164eb2b0fc3:-6fe6</wuid>
     <x>240</x>
     <y>402</y>
@@ -1468,7 +1488,7 @@ $(pv_value)</tooltip>
     <x>24</x>
     <y>438</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <actions hook="false" hook_all="false" />
     <alarm_pulsing>false</alarm_pulsing>
     <auto_size>false</auto_size>
@@ -1482,6 +1502,7 @@ $(pv_value)</tooltip>
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
+    <confirm_message></confirm_message>
     <enabled>true</enabled>
     <font>
       <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
@@ -1493,10 +1514,14 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <height>30</height>
     <horizontal_alignment>0</horizontal_alignment>
+    <limits_from_pv>false</limits_from_pv>
+    <maximum>Infinity</maximum>
+    <minimum>-Infinity</minimum>
+    <multiline_input>false</multiline_input>
     <name>Text Update_6</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_in.LOPR</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1506,16 +1531,16 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
+    <selector_type>0</selector_type>
     <show_units>true</show_units>
+    <style>0</style>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>false</transparent>
-    <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
-    <widget_type>Text Update</widget_type>
+    <widget_type>Text Input</widget_type>
     <width>330</width>
-    <wrap_words>false</wrap_words>
     <wuid>-43033303:164eb2b0fc3:-6fd8</wuid>
     <x>240</x>
     <y>444</y>
@@ -1646,7 +1671,7 @@ $(pv_value)</tooltip>
     <name>Text Update_7</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>='ca://Simple_Gas_IOC:FC1_in.STAT'</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />

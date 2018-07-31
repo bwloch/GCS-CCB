@@ -1386,7 +1386,7 @@ $(pv_value)</tooltip>
     <name>Text Update</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>loc://fc1</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC1_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1565,7 +1565,7 @@ $(pv_value)</tooltip>
     <name>Text Update_1</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>loc://pc1</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:PC1_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1744,7 +1744,7 @@ $(pv_value)</tooltip>
     <name>Text Update_2</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>loc://fc3</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC3_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -2269,7 +2269,7 @@ $(pv_value)</tooltip>
     <name>Text Update_3</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>sim://const(1.07)</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:PG1_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -2998,7 +2998,7 @@ $(pv_value)</tooltip>
     <name>Text Update_4</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>loc://pc2</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:PC2_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -3177,7 +3177,7 @@ $(pv_value)</tooltip>
     <name>Text Update_5</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>loc://fc4</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC4_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -3586,7 +3586,7 @@ $(pv_value)</tooltip>
     <name>Text Update_6</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>sim://const(1.08)</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:PG2_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -4134,7 +4134,7 @@ $(pv_value)</tooltip>
     <name>Text Update_7</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>sim://const(2.2)</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:PG1_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -4313,7 +4313,7 @@ $(pv_value)</tooltip>
     <name>Text Update_8</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>loc://fc2</pv_name>
+    <pv_name>ca://Simple_Gas_IOC:FC2_out</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />

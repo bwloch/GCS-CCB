@@ -1,0 +1,286 @@
+record(ai,"$(INST):PG3_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,3000)
+field(FLNK,"$(INST):PG3_calc")
+}
+record(ai,"$(INST):PG3_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_PG3 PP")
+field(FLNK,"$(INST):PG3_calc")
+}
+record(calc,"$(INST):Rand_dist_PG3"){
+field(CALC,"RNDM * 100")
+}
+record(ao,"$(INST):PG3_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):PG3_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):PG3_calc"){
+field(INPA,"$(INST):PG3_in")
+field(INPB,"$(INST):PG3_noise")
+field(CALC,"A + B")
+}
+
+
+
+record(ai,"$(INST):PG2_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,2000)
+field(FLNK,"$(INST):PG2_calc")
+}
+record(ai,"$(INST):PG2_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_PG2 PP")
+field(FLNK,"$(INST):PG2_calc")
+}
+record(calc,"$(INST):Rand_dist_PG2"){
+field(CALC,"RNDM * 100")
+}
+record(ao,"$(INST):PG2_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):PG2_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):PG2_calc"){
+field(INPA,"$(INST):PG2_in")
+field(INPB,"$(INST):PG2_noise")
+field(CALC,"A + B")
+}
+
+
+record(ai,"$(INST):PG1_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,2000)
+field(FLNK,"$(INST):PG1_calc")
+}
+record(ai,"$(INST):PG1_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_PG1 PP")
+field(FLNK,"$(INST):PG1_calc")
+}
+record(calc,"$(INST):Rand_dist_PG1"){
+field(CALC,"RNDM * 100")
+}
+record(ao,"$(INST):PG1_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):PG1_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):PG1_calc"){
+field(INPA,"$(INST):PG1_in")
+field(INPB,"$(INST):PG1_noise")
+field(CALC,"A + B")
+}
+
+
+
+record(ai,"$(INST):PC2_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,2000)
+field(FLNK,"$(INST):PC2_calc")
+}
+record(ai,"$(INST):PC2_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_PC2 PP")
+field(FLNK,"$(INST):PC2_calc")
+}
+record(calc,"$(INST):Rand_dist_PC2"){
+field(CALC,"RNDM * 20")
+}
+record(ao,"$(INST):PC2_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):PC2_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):PC2_calc"){
+field(INPA,"$(INST):PC2_in")
+field(INPB,"$(INST):PC2_noise")
+field(CALC,"A + B")
+}
+
+
+
+
+record(ai,"$(INST):PC1_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,2000)
+field(FLNK,"$(INST):PC1_calc")
+}
+record(ai,"$(INST):PC1_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_PC1 PP")
+field(FLNK,"$(INST):PC1_calc")
+}
+record(calc,"$(INST):Rand_dist_PC1"){
+field(CALC,"RNDM * 20")
+}
+record(ao,"$(INST):PC1_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):PC1_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):PC1_calc"){
+field(INPA,"$(INST):PC1_in")
+field(INPB,"$(INST):PC1_noise")
+field(CALC,"A + B")
+}
+
+
+record(ai,"$(INST):FC1_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,80)
+field(FLNK,"$(INST):FC1_calc")
+}
+record(ai,"$(INST):FC1_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_FC1 PP")
+field(FLNK,"$(INST):FC1_calc")
+}
+record(calc,"$(INST):Rand_dist_FC1"){
+field(CALC,"RNDM * 2")
+}
+record(ao,"$(INST):FC1_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):FC1_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):FC1_calc"){
+field(INPA,"$(INST):FC1_in")
+field(INPB,"$(INST):FC1_noise")
+field(CALC,"A + B")
+}
+
+
+
+record(ai,"$(INST):FC2_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,40)
+field(FLNK,"$(INST):FC2_calc")
+}
+record(ai,"$(INST):FC2_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_FC2 PP")
+field(FLNK,"$(INST):FC2_calc")
+}
+record(calc,"$(INST):Rand_dist_FC2"){
+field(CALC,"RNDM * 2")
+}
+record(ao,"$(INST):FC2_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):FC2_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):FC2_calc"){
+field(INPA,"$(INST):FC2_in")
+field(INPB,"$(INST):FC2_noise")
+field(CALC,"A + B")
+}
+
+
+
+
+
+record(ai,"$(INST):FC3_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,200)
+field(FLNK,"$(INST):FC3_calc")
+}
+record(ai,"$(INST):FC3_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_FC3 PP")
+field(FLNK,"$(INST):FC3_calc")
+}
+record(calc,"$(INST):Rand_dist_FC3"){
+field(CALC,"RNDM * 2")
+}
+record(ao,"$(INST):FC3_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):FC3_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):FC3_calc"){
+field(INPA,"$(INST):FC3_in")
+field(INPB,"$(INST):FC3_noise")
+field(CALC,"A + B")
+}
+
+
+record(ai,"$(INST):FC4_in"){
+field(DTYP,"Soft Channel")
+field(UDF,1)
+field(INP,400)
+field(FLNK,"$(INST):FC4_calc")
+}
+record(ai,"$(INST):FC4_noise"){
+field(DTYP,"Soft Channel")
+field(SCAN,".1 second")
+field(UDF,1)
+field(INP,"$(INST):Rand_dist_FC4 PP")
+field(FLNK,"$(INST):FC4_calc")
+}
+record(calc,"$(INST):Rand_dist_FC4"){
+field(CALC,"RNDM * 2")
+}
+record(ao,"$(INST):FC4_out"){
+field(DTYP,"Soft Channel")
+field(SCAN,"2 second")
+field(OMSL,	"closed_loop")
+field(DOL,"$(INST):FC4_calc.VAL PP")
+field(OIF,"Full")
+field(UDF,1)
+}
+record(calc,"$(INST):FC4_calc"){
+field(INPA,"$(INST):FC4_in")
+field(INPB,"$(INST):FC4_noise")
+field(CALC,"A + B")
+}
+
