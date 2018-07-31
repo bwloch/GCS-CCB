@@ -1,0 +1,3 @@
+epicsEnvSet("IOC","ioc")
+epicsEnvSet("TOP","/home/menorzinho/EPICS/GCS-CCB/IOC/Simple_Gas_IOC")
+epicsEnvSet("EPICS_BASE","/home/menorzinho/EPICS/base")
