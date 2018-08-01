@@ -162,6 +162,9 @@ field(DTYP,"Soft Channel")
 field(UDF,1)
 field(INP,80)
 field(FLNK,"$(INST):FC1_calc")
+field(EGU,"ml/h")
+field(HOPR,200)
+field(LOPR,20)
 }
 record(ai,"$(INST):FC1_noise"){
 field(DTYP,"Soft Channel")
@@ -182,7 +185,7 @@ field(OIF,"Full")
 field(UDF,1)
 }
 record(calc,"$(INST):FC1_calc"){
-field(INPA,"$(INST):FC1_in")
+field(INPA,"$(INST):FC1_in PP")
 field(INPB,"$(INST):FC1_noise")
 field(CALC,"A + B")
 }
