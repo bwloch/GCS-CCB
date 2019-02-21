@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","iocBronk_test")
+epicsEnvSet("TOP","/home/bwloch/EPICS/Bronk_test")
+epicsEnvSet("EPICS_BASE","/home/bwloch/EPICS/base")
+epicsEnvSet("ASYN","/home/bwloch/EPICS/support/asyn")
+epicsEnvSet("STREAM","/home/bwloch/EPICS/support/stream")

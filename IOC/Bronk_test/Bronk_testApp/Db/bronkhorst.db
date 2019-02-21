@@ -1,0 +1,26 @@
+record(ao, bronkhorst:blink){
+	field(DESC,"blinking all device")
+	field(DTYP, "stream")
+	field(OUT, "@bronkhorst.proto set_blink() $(PORT)")
+	field(DRVL, "0")
+	field(DRVH, "9")
+}
+record(ai, bronkhorst:read_setpoint){
+    field(DESC, "read set point")
+    field(DTYP, "stream")
+    field(INP, "@bronkhorst.proto get_setpoint() $(PORT)")
+    field(SCAN, ".5 second")
+}
+record(ao, bronkhorst:write_setpoint){
+    field(DESC, "write set point")
+    field(DTYP, "stream")
+    field(OUT, "@bronkhorst.proto set_setpoint() $(PORT)")
+    field(DRVL, "0")
+    field(DRVH, "32000")
+}
+record(ai, bronkhorst:measure){
+    field(DESC, "measure flow")
+    field(DTYP, "stream")
+    field(INP, "@bronkhorst.proto measure() $(PORT)")
+    field(SCAN, ".5 second")
+}

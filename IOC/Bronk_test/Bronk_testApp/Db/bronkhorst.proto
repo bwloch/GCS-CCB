@@ -1,0 +1,19 @@
+Terminator = CR LF;
+set_blink {
+	out ":0680010060013%1d";
+	ExtraInput = Ignore;
+}
+get_setpoint {
+	out ":06800401210121";
+	in ":0680020121%04X";
+	ExtraInput = Ignore;
+}
+set_setpoint {
+	out ":0680010121%04X";
+	ExtraInput = Ignore;
+}
+measure {
+	out ":06800401210120";
+	in ":0680020121%04X";
+	ExtraInput = Ignore;
+}
