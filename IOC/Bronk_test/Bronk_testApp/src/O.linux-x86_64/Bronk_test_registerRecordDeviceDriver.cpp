@@ -349,7 +349,7 @@ static struct iocshVarDef vardefs[] = {
 int Bronk_test_registerRecordDeviceDriver(DBBASE *pbase)
 {
     static int executed = 0;
-    const char *bldTop = "/home/bwloch/EPICS/Bronk_test";
+    const char *bldTop = "/home/bwloch/EPICS/GCS-CCB/IOC/Bronk_test";
     const char *envTop = getenv("TOP");
 
     if (envTop && strcmp(envTop, bldTop)) {

@@ -1,5 +1,5 @@
-epicsEnvSet("IOC","iocBronk_test")
-epicsEnvSet("TOP","/home/bwloch/EPICS/GCS-CCB/IOC/Bronk_test")
+epicsEnvSet("IOC","iocSimple")
+epicsEnvSet("TOP","/home/bwloch/EPICS/GCS-CCB/IOC/STT_Gas_IOC_Bronkhorst")
 epicsEnvSet("EPICS_BASE","/home/bwloch/EPICS/base")
 epicsEnvSet("ASYN","/home/bwloch/EPICS/support/asyn")
 epicsEnvSet("STREAM","/home/bwloch/EPICS/support/stream")
